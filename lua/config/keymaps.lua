@@ -4,7 +4,7 @@
 --
 vim.keymap.set("i", "jk", "<Esc>")
 
-vim.keymap.set({ "i", "n", "x", "v" }, "s", "<Nop>")
+vim.keymap.set({ "n", "x", "v" }, "s", "<Nop>")
 
 vim.keymap.set({ "i", "n", "x", "v" }, "<C-g>", "<Cmd>FzfLua live_grep<Cr>")
 vim.keymap.set({ "i", "n", "x", "v" }, "<C-f>", "<Cmd>FzfLua files<Cr>")

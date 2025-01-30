@@ -1,0 +1,33 @@
+{
+  "setupcols": {
+    "prefix": "setupcols",
+    "body": [
+      "<!--FIRST COL-50-->",
+      "<div class='col-50'>",
+      "</div>",
+      "<!--END FIRST COL-50-->\n",
+      "<!--SECOND COL-50-->",
+      "<div class='col-50'>",
+      "</div>",
+      "<!--END SECOND COL-50-->"
+    ]
+  },
+
+  "setuptricols": {
+    "prefix": "setuptricols",
+    "body": [
+      "<!--FIRST DIV-->",
+      "<div style=\"display: flex; flex-direction: column;\">",
+      "</div>",
+      "<!--END FIRST DIV-->\n",
+      "<!--SECOND DIV-->",
+      "<div>",
+      "</div>",
+      "<!--END SECOND DIV-->\n",
+      "<!--THIRD DIV-->",
+      "<div>",
+      "</div>",
+      "<!--END THIRD DIV-->"
+    ]
+  }
+}
